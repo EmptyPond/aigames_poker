@@ -8,7 +8,7 @@ end
 
 file = File.read("../resultfile.json")
 data_hash = JSON.parse(file)
-game_array = JSON.parse(data_hash["game"])
+game_hash = JSON.parse(data_hash["game"])
 
 
 binding.pry
