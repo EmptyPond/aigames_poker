@@ -1,3 +1,5 @@
+require 'pry'
+
 module Poker
   def self.test
     true
